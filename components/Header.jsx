@@ -104,7 +104,7 @@ export default function Header() {
     items-center
     gap-8
     lg:flex
-    xl:gap-10
+    xl:gap-12
   "
 >
   {navItems.map((item) => (
