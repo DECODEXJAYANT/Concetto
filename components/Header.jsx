@@ -89,35 +89,45 @@ export default function Header() {
             src="/logo.webp"
             alt="Concetto"
             fill
-            priority
             sizes="64px"
             className="object-contain"
           />
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden items-center gap-8 lg:flex xl:gap-9">
-          {navItems.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="
-                whitespace-nowrap
-                text-xs
-                font-medium
-                uppercase
-                tracking-wider
-                text-(--text-muted)
-                transition-colors
-                duration-200
-                hover:text-(--primary)
-                xl:text-sm
-              "
-            >
-              {item.name}
-            </Link>
-          ))}
-        </div>
+<div
+  className="
+    absolute
+    left-1/2
+    hidden
+    -translate-x-1/2
+    items-center
+    gap-8
+    lg:flex
+    xl:gap-12
+  "
+>
+  {navItems.map((item) => (
+    <Link
+      key={item.name}
+      href={item.href}
+      className="
+        whitespace-nowrap
+        text-xs
+        font-medium
+        uppercase
+        tracking-wide
+        text-(--text-muted)
+        transition-colors
+        duration-200
+        hover:text-(--primary)
+        xl:text-sm
+      "
+    >
+      {item.name}
+    </Link>
+  ))}
+</div>
 
         {/* Desktop Theme Toggle */}
         <button
