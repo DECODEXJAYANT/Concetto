@@ -10,12 +10,12 @@ export default function Hero() {
   });
 };
   return (
-    <section className="relative min-h-screen overflow-hidden bg-[var(--background)] pt-24">
+    <section className="relative min-h-screen overflow-hidden bg-(--background) pt-24">
 
       <StarField />
 
 
-      <div className="pointer-events-none z-10 absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--primary)]/10 blur-[140px]" />
+      <div className="pointer-events-none z-10 absolute left-1/2 top-1/2 h-500px w-500px -translate-x-1/2 -translate-y-1/2 rounded-full bg-(--primary)/10 blur-[140px]" />
 
       {/* Left Tech Grid */}
       <div className="tech-grid-left pointer-events-none absolute left-0 top-1/2 h-[70%] w-[30%] -translate-y-1/2 opacity-40" />
@@ -26,7 +26,7 @@ export default function Hero() {
       {/* Hero Content */}
       <div className="relative z-10 flex min-h-[calc(100vh-6rem)] flex-col items-center justify-center px-6 text-center">
 
-        <p className="mb-4 text-xs font-medium uppercase tracking-[0.5em] text-[var(--text-muted)] md:text-sm">
+        <p className="mb-4 text-xs font-medium uppercase tracking-[0.5em] text-(--text-muted) md:text-sm">
           IIT (ISM) Dhanbad presents
         </p>
 
@@ -34,9 +34,10 @@ export default function Hero() {
   <div className="relative h-[clamp(5rem,13vw,10rem)] w-[clamp(5rem,13vw,10rem)] shrink-0">
     <Image
       src="/logo.webp"
-      alt="C"
+      alt="Concetto logo"
       fill
       priority
+      sizes="(max-width: 768px) 13vw, 160px"
       className="object-contain"
     />
   </div>
@@ -48,13 +49,13 @@ export default function Hero() {
 </div>
 
         <div className="mt-6 flex flex-col items-center gap-3">
-          <p className="text-sm uppercase tracking-[0.35em] text-[var(--text-muted)] md:text-base">
+          <p className="text-sm uppercase tracking-[0.35em] text-(--text-muted) md:text-base">
             The Techno-Management Fest
           </p>
 
-          <div className="h-px w-24 bg-[var(--primary)]" />
+          <div className="h-px w-24 bg-(--primary)" />
 
-          <p className="text-xs uppercase tracking-[0.3em] text-[var(--text-muted)]">
+          <p className="text-xs uppercase tracking-[0.3em] text-(--text-muted)">
             Think • Create • Transform
           </p>
         </div>
