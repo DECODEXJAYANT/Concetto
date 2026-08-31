@@ -8,11 +8,11 @@ import { useState } from "react";
 
 const navItems = [
   { name: "Events", href: "events" },
-  { name: "Accommodation", href: "#accommodation" },
+  { name: "Accommodation", href: "accommodation" },
   { name: "Workshops", href: "#workshops" },
-  { name: "Sponsors", href: "#sponsors" },
-  { name: "Merchandise", href: "#merchandise" },
-  { name: "About Us", href: "#about-us" },
+  { name: "Sponsors", href: "sponsors" },
+  { name: "Merchandise", href: "merchandise" },
+  { name: "About Us", href: "about-us" },
   { name: "Teams", href: "#teams" },
 ];
 

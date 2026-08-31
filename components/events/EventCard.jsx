@@ -46,13 +46,14 @@ export default function EventCard({
           <span>{mode}</span>
         </div>
 
-        <Link
+        <a
           href={href}
+          target="_blank"
           className="mt-2 flex w-full items-center justify-center gap-4 rounded-lg bg-(--primary) px-5 py-2 text-base font-medium text-white transition-all duration-300 hover:brightness-110"
         >
           <ExternalLink size={21} />
           <span>Apply Now</span>
-        </Link>
+        </a>
       </div>
     </article>
   );

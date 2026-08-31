@@ -23,7 +23,7 @@ export default function StarField() {
     ];
 
     const createStars = () => {
-      const count = 1500;
+      const count = 1000;
 
       stars = Array.from({ length: count }, () => ({
         x: (Math.random() - 0.5) * canvas.width * 2,
