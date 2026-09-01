@@ -2,7 +2,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "next-themes";
-
+import { Ballet } from "next/font/google";
 export const metadata = {
   title: "Concetto 2026 | IIT (ISM) Dhanbad",
   description:

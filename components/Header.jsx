@@ -8,12 +8,12 @@ import { useEffect, useState } from "react";
 
 const navItems = [
   { name: "Events", href: "/events" },
+   { name: "About Us", href: "/about-us" },
   { name: "Accommodation", href: "/accommodation" },
-  { name: "Workshops", href: "#workshops" },
+  // { name: "Workshops", href: "#workshops" },
   { name: "Sponsors", href: "/sponsors" },
   { name: "Merchandise", href: "/merchandise" },
-  { name: "About Us", href: "/about-us" },
-  { name: "Teams", href: "#teams" },
+  { name: "Teams", href: "/teams" },
 ];
 
 export default function Header() {
@@ -86,7 +86,7 @@ export default function Header() {
           className="relative h-14 w-14 shrink-0 md:h-16 md:w-16"
         >
           <Image
-            src="/logo.webp"
+            src="/home/logo_final.png"
             alt="Concetto"
             fill
             sizes="64px"

@@ -23,7 +23,7 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="relative overflow-hidden bg-[var(--background)] px-5 py-16 md:px-10 md:py-20"
+      className="relative overflow-hidden bg-[var(--background)] px-5 md:px-10"
     >
       <div className="mx-auto max-w-[1200px]">
 

@@ -25,15 +25,18 @@ export default function Hero() {
 
       {/* Hero Content */}
       <div className="relative z-10 flex min-h-[calc(100vh-6rem)] flex-col items-center justify-center px-6 text-center">
-
+        
         <p className="mb-4 text-xs font-medium uppercase tracking-[0.5em] text-(--text-muted) md:text-sm">
           IIT (ISM) Dhanbad presents
         </p>
 
+         <p className="text-sm uppercase tracking-[0.35em] text-(--muted) md:text-base">
+            The Techno-Management Fest
+          </p>
      <div className="flex items-center justify-center">
   <div className="relative h-[clamp(5rem,13vw,10rem)] w-[clamp(5rem,13vw,10rem)] shrink-0">
     <Image
-      src="/logo.webp"
+      src="/home/logo_final.png"
       alt="Concetto logo"
       fill
       priority
@@ -49,14 +52,14 @@ export default function Hero() {
 </div>
 
         <div className="mt-6 flex flex-col items-center gap-3">
-          <p className="text-sm uppercase tracking-[0.35em] text-(--text-muted) md:text-base">
-            The Techno-Management Fest
-          </p>
 
           <div className="h-px w-24 bg-(--primary)" />
 
-          <p className="text-xs uppercase tracking-[0.3em] text-(--text-muted)">
-            Think • Create • Transform
+          <p className="text-sm uppercase tracking-[0.3em] text-(--text-muted) font-bold">
+            Centauri Synapse — Forged Over a Century
+          </p>
+          <p className="text-sm uppercase tracking-[0.3em] text-(--primary) font-bold">
+            Soaring Towards Infinity
           </p>
         </div>
 
