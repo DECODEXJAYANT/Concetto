@@ -1,11 +1,11 @@
 export const team = [
   {
-    name: "Adwait Bhor",
+    name: "Seemala Devi Sri Pranay",
     role: "Coordinator",
     department: "Governing Team",
     team: "secretariat",
-    email: "gsec_snt@iitism.ac.in",
-    phone: "+91-9967099607",
+    email: "23je0894@iitism.ac.in",
+    phone: "+91-6301664005",
   },
   {
     name: "Adwait Bhor",
@@ -16,12 +16,12 @@ export const team = [
     phone: "+91-9967099607",
   },
   {
-    name: "Adwait Bhor",
+    name: "xyz",
     role: "President",
     department: "Governing Team",
     team: "secretariat",
-    email: "gsec_snt@iitism.ac.in",
-    phone: "+91-9967099607",
+    email: "abc@iitism.ac.in",
+    phone: "1233456",
   },
 
   {
@@ -41,6 +41,7 @@ export const team = [
     team: "co-coordinators",
     email: "23je0692@iitism.ac.in",
     phone: "+91-7459819700",
+    image: "/team/ccsurendra.jpeg"
   },
 
   {
@@ -60,16 +61,6 @@ export const team = [
     team: "sponsorship",
     email: "23je0447@iitism.ac.in",
     phone: "+91-9044566755",
-    image: "/team/sponsor1.jpeg"
-  },
-
-  {
-    name: "Adi nath Bhawani",
-    role: "Sponsorship Head",
-    department: "Sponsorship",
-    team: "sponsorship",
-    email: "23je0447@iitism.ac.in",
-    phone: "+91-9044566755",
   },
 
   {
@@ -79,6 +70,7 @@ export const team = [
     team: "pr",
     email: "23je0562@iitism.ac.in",
     phone: "+91-7995032473",
+    image: "/team/sponsor1.jpeg"
   },
 
   {
