@@ -1,23 +1,5 @@
 export const team = [
   {
-    name: "Prof. Vasanta Govind Kumar Villuri",
-    role: "Convener",
-    department: "Faculty",
-    team: "convener",
-    email: "vgkvilluri@iitism.ac.in",
-    phone: "+91-9471192205",
-  },
-
-  {
-    name: "Prof. Niptika Jana",
-    role: "Co-convener",
-    department: "Faculty",
-    team: "convener",
-    email: "niptikaj@iitism.ac.in",
-    phone: "+91-9903080428",
-  },
-
-  {
     name: "Adwait Bhor",
     role: "General Secretary",
     department: "Governing Team",
@@ -72,6 +54,15 @@ export const team = [
   },
 
   {
+    name: "Adi nath Bhawani",
+    role: "Sponsorship Head",
+    department: "Sponsorship",
+    team: "sponsorship",
+    email: "23je0447@iitism.ac.in",
+    phone: "+91-9044566755",
+  },
+
+  {
     name: "Manuwada Adithya",
     role: "PR Head",
     department: "PR",
@@ -87,5 +78,7 @@ export const team = [
     team: "event",
     email: "23je0547@iitism.ac.in",
     phone: "+91-9044566755",
+    image: "/team/event.jpg"
   },
+  
 ];
